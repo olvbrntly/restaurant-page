@@ -1,6 +1,6 @@
-import renderPage from './site';
+import renderHomePage from './homepage';
 
-renderPage();
+renderHomePage();
 
 // import site.js
 // load homepage -- as default --
