@@ -9,8 +9,13 @@ function renderPage() {
   const contactBtn = document.createElement('button');
 
   homeBtn.textContent = 'HOME';
+  homeBtn.setAttribute('id', 'homeBtn');
+
   menuBtn.textContent = 'MENU';
+  menuBtn.setAttribute('id', 'menuBtn');
+
   contactBtn.textContent = 'CONTACT';
+  contactBtn.setAttribute('id', 'contactBtn');
 
   btnDiv.appendChild(homeBtn);
   btnDiv.appendChild(menuBtn);
