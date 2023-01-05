@@ -31,18 +31,17 @@ button:hover{
 
 
 #content{
-    height:85vh;
+    height:85vh;    
+}
+
+/* HomePage---------------------------------------- */
+.home-content{
+    background-image: url(/dist/images/bakery.jpg);
     background-size:cover;
     background-attachment: fixed;
     display:flex;
     justify-content: center;
     align-items: center;
-    
-}
-
-/* HomePage---------------------------------------- */
-.home-content{
-    background-image: url(/images/bakery.jpg);
 }
 
 #hp-title{
@@ -69,3 +68,31 @@ button:hover{
 
 /* MENU ----------------------------------------------- */
 
+.menu-content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px repeat(auto-fill, 300px);
+    justify-items: center;
+    align-items: center;
+}
+
+.menu-content h1 {
+    grid-column: 1/4;
+    text-align: center;
+    margin:none;
+    padding: none;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.menu-item{
+    border:2px solid red;
+    height:100%;
+    width:100%;
+}
+
+.menu-item img{
+    height:50px;
+    width:50px;
+}
