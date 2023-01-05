@@ -3,13 +3,16 @@ import renderHomePage from './homepage';
 import renderMenuPage from './menu'
 import clearPage from './clear';
 
+// initial load
 renderPage();
 renderHomePage();
 
+// button on top of page
 const homeBtn = document.getElementById('homeBtn');
 const menuBtn = document.getElementById('menuBtn');
 // const contactBtn = document.getElementById('contactBtn');
 
+// changes Page based on button clicked
 homeBtn.addEventListener('click', ()=>{
     clearPage();
     renderHomePage();
@@ -21,12 +24,3 @@ menuBtn.addEventListener('click', ()=>{
     renderMenuPage();
     console.log('clicked menu');
 })
-
-// import site.js
-// load homepage -- as default --
-// when menu is clicked
-// re-render with menu page
-// when contact is clicked
-// re-render with contact page
-// when home is clicked
-// re-render with home page
