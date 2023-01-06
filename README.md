@@ -1,3 +1,4 @@
+#restaurantPage
 # Restaurant Page
 
 A completed project from the Odin Project curriculum
