@@ -87,12 +87,20 @@ button:hover{
 }
 
 .menu-item{
-    border:2px solid red;
     height:100%;
     width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
 }
 
 .menu-item img{
-    height:50px;
-    width:50px;
+    height:250px;
+    width:250px;
+}
+
+.item-info{
+    display:flex;
+    gap:20px;
 }
