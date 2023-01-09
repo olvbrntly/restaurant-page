@@ -3,7 +3,7 @@
 
 A completed project from the Odin Project curriculum
 
-Live Demo:
+Live Demo:https://olvbrntly.github.io/restaurant-page/
 
 A simple restaturant page made entirely in Javascript relying on modules, webpack and Dom manipulation
 
