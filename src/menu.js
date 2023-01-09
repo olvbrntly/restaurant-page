@@ -9,7 +9,7 @@ function createMenuItem(name, cost){
   itemInfo.setAttribute('class', 'item-info');
 
   const image = document.createElement('img');
-  image.src = `dist/images/${name.toLowerCase().replace(/\s/g, '')}.jpg`
+  image.src = `images/${name.toLowerCase().replace(/\s/g, '')}.jpg`
 
   const description = document.createElement('p');
   description.textContent = name;
